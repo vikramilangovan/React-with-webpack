@@ -16,22 +16,37 @@ Create a folder with name reactApp on the desktop to install all the required fi
 To create any module, it is required to generate the package.json file. Therefore, after Creating the folder, we need to create a package.json file. To do so you need to run the npm init command from the command prompt.
 
 > C:\Users\username\Desktop\reactApp>npm init
+
 This command asks information about the module such as packagename, description, author etc. you can skip these using the –y option.
 
 > C:\Users\username\Desktop\reactApp>npm init -y
+
 Wrote to C:\reactApp\package.json:
+
 > {
+
 >    "name": "reactApp",
+
 >    "version": "1.0.0",
+
 >    "description": "",
+
 >    "main": "index.js",
+
 >    "scripts": {
+
 >      "test": "echo \"Error: no test specified\" && exit 1"
+
 >    },
+
 >   "keywords": [],
+
 >    "author": "",
+
 >    "license": "ISC"
+
 > }
+
 
 ### Step 2 - install React and react dom
 Since our main task is to install ReactJS, install it, and its dom packages, using install react and react-dom commands of npm respectively. You can add the packages we install, to package.json file using the --save option.
