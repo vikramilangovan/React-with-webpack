@@ -10,7 +10,6 @@ Babel is a JavaScript compiler and transpiler. It is used to convert one source 
 Create a folder with name reactApp on the desktop to install all the required files, using the mkdir command.
 
 > C:\Users\username\Desktop>mkdir reactApp
-
 > C:\Users\username\Desktop>cd reactApp
 
 To create any module, it is required to generate the package.json file. Therefore, after Creating the folder, we need to create a package.json file. To do so you need to run the npm init command from the command prompt.
